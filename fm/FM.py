@@ -183,7 +183,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     mode = args.mode
     # length of representation
-    x_train, y_train, x_test, y_test = load_iris_dataset()
+    x_train, y_train, x_test, y_test = load_dataset()
     # initialize the model
     num_classes = 2
     lr = 0.01
